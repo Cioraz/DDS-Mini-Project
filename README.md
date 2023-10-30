@@ -1,5 +1,15 @@
 # Optimum room temperature regulator
 
+## Team Details
+> Semester: 3rd Sem B. Tech. CSE
+
+> Section: S2
+
+> Member-1: Shubhang Walavalkar, 221CS248, shubhangnwalavalkar.221CS248@nitk.edu.in
+
+> member-2: Sunil Thunga, 221CS252, sunilthunga.221CS252@nitk.edu.in
+
+> Member-3: Vikas Kushwaha, 221CS260, vikaskushwaha.221CS260@nitk.edu.in
 
 # Abstract :
 ## Background:
@@ -73,7 +83,7 @@ temperature, which is around 75-77°F (24-25°C) for most indoor environments. A
 take this into account depending on the medical conditons of the patients , but currently this is out
 of the scope of the mini project.
 
-### Working:
+## Working:
 Inputs are the
 - In1 - Input Body Temperature
 - In2 - Optimum Body Temperature
@@ -101,10 +111,75 @@ thus continuouly updating the room temperature according to the skin temperature
 ### Flow Chat
 ![WhatsApp Image 2023-10-23 at 11 21 49 PM](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/aa614731-9a67-4360-b33a-6f444e08c229)
 
-### Snapshots
 
-### Main circuit
+## Logisim Circuit Diagram
 ![dds](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/43621acb-f8ef-4eb9-a2a7-9e7c16df42c8)
 
-### Binary to BCD Converter
-![dds2](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/4f7a0a44-a69e-4849-8703-708d71859d29)
+## Verilog Code
+```
+module magComp ( In1,
+   In2,
+   Gt,
+   In3,
+   greaterval,
+   tempDifference,
+   finalRoom
+); 
+
+/*
+In1 - Input Body Temperature
+In2 - Optimum Body Temperature
+In3 - Optimum Room Temperature
+All are 8 bit numbers
+*/
+input [7:0] In1,In2,In3;
+
+//The Outputs of comparison 
+output Gt; 
+
+// The greaterVal between In1 and In2 aswell as the finalRoom Temp
+output [7:0] greaterval,finalRoom;
+output [7:0] tempDifference;
+reg [7:0] tempDifference;
+reg lightColor;
+reg [7:0] finalRoom;
+reg Gt; 
+reg [7:0] greaterval;
+
+//Check the state of the input lines 
+always @ (In1 or In2 or In3) 
+
+// Depending on which is greater, return 1 or 0
+begin 
+ Gt <= ( In1 > In2 )? 1'b1 : 1'b0; 
+end 
+
+always @(In1, In2) begin
+    tempDifference = In1>In2? In1-In2 : In2-In1;
+end
+
+// Checking the light color either red of green
+always @(In1, In2) begin
+    lightColor = In1>In2? 1 : 0;
+end
+
+// Based on light color to find the finalRoom temperature
+always @(lightColor,tempDifference,In3) begin
+    if (lightColor)
+    finalRoom=In3-tempDifference;
+    else
+    finalRoom=In3+tempDifference;
+end
+endmodule
+```
+
+## Verilog Code References
+> https://www.fpga4student.com/2017/06/verilog-module-in-hdl-fpga-projects.html
+
+> http://www.asic-world.com/verilog/veritut.html
+
+> https://www.doulos.com/knowhow/vhdl_designers_guide/assets/verilog_quickref.pdf
+
+> https://en.wikipedia.org/wiki/Verilog
+
+> https://www.xilinx.com/support/documentation/sw_manuals/xilinx11/books/docs/xst/xst_veri_bk_examples.htm
