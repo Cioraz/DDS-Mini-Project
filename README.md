@@ -7,7 +7,7 @@
 
 > Member-1: Shubhang Walavalkar, 221CS248, shubhangnwalavalkar.221CS248@nitk.edu.in
 
-> member-2: Sunil Thunga, 221CS252, sunilthunga.221CS252@nitk.edu.in
+> Member-2: Sunil Thunga, 221CS252, sunilthunga.221CS252@nitk.edu.in
 
 > Member-3: Vikas Kushwaha, 221CS260, vikaskushwaha.221CS260@nitk.edu.in
 
