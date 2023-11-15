@@ -129,7 +129,10 @@ of the scope of the mini project.
 
 ## Verilog Code
 
-```
+<details>
+  <summary>Detail</summary>
+
+  ``` 
 module magComp ( In1,
    In2,
    Gt,
@@ -185,6 +188,9 @@ always @(lightColor,tempDifference,In3) begin
 end
 endmodule
 ```
+</details>
+
+
 
 ## Verilog Code References
 > https://www.fpga4student.com/2017/06/verilog-module-in-hdl-fpga-projects.html
