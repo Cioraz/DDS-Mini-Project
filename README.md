@@ -110,19 +110,25 @@ of the scope of the mini project.
    Again another MUX is used for this purpose .
    The circuit is continuosly running untill the body temperature of the patient reaches optimum bodytemp and led doesnt light up. The sensor will be    continuosly recording the skin temperature and
    thus continuouly updating the room temperature according to the skin temperature of the person.
+
+
+  > ![WhatsApp Image 2023-10-23 at 11 21 35 PM](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/6f9f02e7-d010-4d5a-9345-3fbe87039580)
+
+
+  > ![WhatsApp Image 2023-10-23 at 11 21 49 PM](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/aa614731-9a67-4360-b33a-6f444e08c229)
+
 </details>
 
-### Functional Table
-![WhatsApp Image 2023-10-23 at 11 21 35 PM](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/6f9f02e7-d010-4d5a-9345-3fbe87039580)
-
-### Flow Chat
-![WhatsApp Image 2023-10-23 at 11 21 49 PM](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/aa614731-9a67-4360-b33a-6f444e08c229)
-
-
 ## Logisim Circuit Diagram
-![dds](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/43621acb-f8ef-4eb9-a2a7-9e7c16df42c8)
+<details>
+  <summary>Detail</summary>
+
+  ![dds](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/43621acb-f8ef-4eb9-a2a7-9e7c16df42c8)
+</details>
+
 
 ## Verilog Code
+
 ```
 module magComp ( In1,
    In2,
