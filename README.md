@@ -125,6 +125,10 @@ of the scope of the mini project.
 
   ![pic](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/c0310766-86d9-4ed0-ac02-d92a8a49cf64)
 
+  BCD Converter
+![hi](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/8b4acb41-f9d3-4add-b964-f001aa7d02bb)
+
+
 </details>
 
 
