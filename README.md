@@ -123,7 +123,8 @@ of the scope of the mini project.
 <details>
   <summary>Detail</summary>
 
-  ![dds](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/43621acb-f8ef-4eb9-a2a7-9e7c16df42c8)
+  ![pic](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/c0310766-86d9-4ed0-ac02-d92a8a49cf64)
+
 </details>
 
 
