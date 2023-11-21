@@ -197,7 +197,7 @@ endmodule
 
 
 
-## Verilog Code References
+## References
 > https://www.fpga4student.com/2017/06/verilog-module-in-hdl-fpga-projects.html
 
 > http://www.asic-world.com/verilog/veritut.html
