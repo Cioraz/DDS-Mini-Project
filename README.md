@@ -119,13 +119,14 @@ of the scope of the mini project.
 ## Logisim Circuit Diagram
 <details>
   <summary>Detail</summary>
+  <br>
+  <h3>Final Circuit Image</h3>
 
  ![283085376-c0310766-86d9-4ed0-ac02-d92a8a49cf64](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/194f2ff9-5d15-40a8-9e33-d94578e820aa)
 
+  <h3>BCD Converter Image</h3>
 
-  BCD Converter
-
-![283085862-8b4acb41-f9d3-4add-b964-f001aa7d02bb](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/df2efa41-6b84-4fde-8ff9-c98aa8b78b88)
+  ![283085862-8b4acb41-f9d3-4add-b964-f001aa7d02bb](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/df2efa41-6b84-4fde-8ff9-c98aa8b78b88)
 
 
 </details>
