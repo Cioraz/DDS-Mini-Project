@@ -111,11 +111,8 @@ of the scope of the mini project.
    The circuit is continuosly running untill the body temperature of the patient reaches optimum bodytemp and led doesnt light up. The sensor will be    continuosly recording the skin temperature and
    thus continuouly updating the room temperature according to the skin temperature of the person.
 
-
-  > ![WhatsApp Image 2023-10-23 at 11 21 35 PM](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/6f9f02e7-d010-4d5a-9345-3fbe87039580)
-
-
-  > ![WhatsApp Image 2023-10-23 at 11 21 49 PM](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/aa614731-9a67-4360-b33a-6f444e08c229)
+  > ![277428741-6f9f02e7-d010-4d5a-9345-3fbe87039580](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/ac943013-eb5a-49af-a866-806e55522344)
+![277428839-aa614731-9a67-4360-b33a-6f444e08c229](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/8f4d5e1d-6d3e-43c4-9689-5918ac2cb3ba)
 
 </details>
 
@@ -123,10 +120,12 @@ of the scope of the mini project.
 <details>
   <summary>Detail</summary>
 
-  ![pic](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/c0310766-86d9-4ed0-ac02-d92a8a49cf64)
+ ![283085376-c0310766-86d9-4ed0-ac02-d92a8a49cf64](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/194f2ff9-5d15-40a8-9e33-d94578e820aa)
+
 
   BCD Converter
-![hi](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/8b4acb41-f9d3-4add-b964-f001aa7d02bb)
+
+![283085862-8b4acb41-f9d3-4add-b964-f001aa7d02bb](https://github.com/Cioraz/DDS-Mini-Project/assets/76161837/df2efa41-6b84-4fde-8ff9-c98aa8b78b88)
 
 
 </details>
